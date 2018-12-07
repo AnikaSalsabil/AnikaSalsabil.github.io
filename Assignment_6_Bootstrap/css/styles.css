@@ -67,6 +67,7 @@ body {
 
 .logo {
     font-size: 20px;
+    
 }
 
 /*navigation ends*/
@@ -80,6 +81,7 @@ body {
 
 .iphone {
     text-align: left;
+    width: 400px;
 }
 
 

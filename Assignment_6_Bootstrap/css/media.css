@@ -2,6 +2,11 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
+    
+.iphone {
+    text-align: center;
+    width: 100%;
+}
 
     .sec1_texts {
         padding-top: 0px;
