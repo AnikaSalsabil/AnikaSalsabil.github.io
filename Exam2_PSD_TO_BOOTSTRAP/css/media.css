@@ -2,6 +2,20 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
+    .timer .timer-wrapper {
+        width: 40px;
+        height: 30px;
+    }
+
+    .timer .timer-wrapper .time {
+        font-size: 18px;
+    }
+
+    .timer .timer-wrapper .text {
+        font-size: 12px;
+    }
+
+
     .lefty_center,
     .righty_center {
         text-align: center;
@@ -12,16 +26,20 @@
     }
 
     .banner_pinkarea {
-        height: 690px;
+        height: 710px;
     }
 
     .banner_area {
-        height: 650px;
+        height: 670px;
     }
 
     .banner_area h1 {
-        font-size: 40px;
+        padding-top: 50px;
+        font-size: 33px;
         line-height: 50px;
+    }
+    .banner_area h5 {
+        font-size: 16px;
     }
 
     .banner_area hr {
@@ -155,6 +173,19 @@
 /**********   sm   **********/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .timer .timer-wrapper {
+        width: 40px;
+        height: 30px;
+    }
+
+    .timer .timer-wrapper .time {
+        font-size: 18px;
+    }
+
+    .timer .timer-wrapper .text {
+        font-size: 12px;
+    }
+
 
     .lefty_center,
     .righty_center {
@@ -174,6 +205,7 @@
     }
 
     .banner_area h1 {
+        padding-top: 35px;
         font-size: 40px;
         line-height: 50px;
     }
