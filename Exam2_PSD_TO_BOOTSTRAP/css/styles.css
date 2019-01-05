@@ -480,12 +480,27 @@ body {
 .pink_card {
     background-color: #ED145B;
     position: relative;
+    overflow:hidden;
+}
+
+.pink_card::before{
+    content: "";
+    position: absolute;
+    background-color: #ED145B;
+    width: 101%;
+    height: 15px;
+    bottom: -7px;
+    left: -2px;
+    transform: rotate(2deg);
 }
 
 .card-img-top {
     height: auto;
+    
+    /*
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    */
 
     opacity: 1;
     display: block;
